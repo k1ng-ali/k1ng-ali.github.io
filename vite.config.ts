@@ -10,7 +10,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: '/k1ng-ali.github.io/', // <--- обязательно с /
+  base: './', // <--- обязательно с /
   build: {
     outDir: 'dist',
   },
